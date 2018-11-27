@@ -104,7 +104,6 @@ main {
 }
 
 .action {
-    height: 1100px;
     width: 100%;
     background: url(../img/Img-1.jpg) no-repeat;
     display: flex;
@@ -229,6 +228,7 @@ main {
 
 .goods {
     width: 1170px;
+    height: 377px;
     display: flex;
     justify-content: space-between;
 }
@@ -342,4 +342,21 @@ main {
     font-size: 14px;
     font-weight: 400;
     margin: 10px 0px;
+}
+.button-main{
+    background-color: #ffffff;
+    margin-top: 30px;
+    color: #213451;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #213451;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
